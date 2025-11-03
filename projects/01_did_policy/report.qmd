@@ -1,0 +1,27 @@
+---
+title: "Policy Analysis – GDP Growth Example"
+format:
+  html:
+    toc: false
+    code-fold: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+## Objective
+This short report reproduces the analysis in `scripts/analysis.R`.
+
+## Run existing R script
+```{r}
+source("scripts/analysis.R", local = knitr::knit_global())
+```
+
+## Interpretation
+The plot above shows the GDP development of an imaginary economy from 2015-2024. The purpose is to demonstrate that Quarto successfully reproduces the code from my script.
+
+## Session Info
+```{r}
+sessionInfo()
+```
